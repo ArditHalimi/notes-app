@@ -10,7 +10,6 @@ __pycache__/
 env/
 bin/
 app/venv/
-frontend/build/
 
 develop-eggs/
 
