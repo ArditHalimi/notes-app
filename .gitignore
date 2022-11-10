@@ -1,0 +1,111 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+env/
+bin/
+app/venv/
+frontend/build/
+
+develop-eggs/
+
+eggs/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+test_results/
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+app/coverage
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Rope
+.ropeproject
+
+# Django stuff:
+*.log
+*.pot
+
+# Sphinx documentation
+docs/_build/
+
+#SQLITE
+*.sqlite3
+
+.DS_Store
+
+#Project Files
+
+
+static/*
+media/*
+app/media
+**/settings/local
+app/settings/local.py
+**/local.py
+
+#IntelliJ/Pycharm
+
+.idea
+
+*.ipynb
+
+node_packages/*
+
+# Grunt/NPM/bower stuff
+
+node_modules/
+bower_components/
+karma*.config.js
+
+$CIRCLE_TEST_REPORTS/
+
+.data/
+
+docs/_build
+docs/auto
+
+
+# Webpack hot loading
+webpack-stats.json
+
+.env
+dev.env
+local.env
+*.env
+!deploy.env
+Makefile.local
+values.yaml
+*.generated.yaml
+.mypy_cache
+_junk
+celerybeat-schedule
+celerybeat.pid
+
+app/static/
